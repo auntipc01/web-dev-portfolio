@@ -17,6 +17,10 @@
 }
 
 /* shared style */
+.secondary-bg {
+    background-color: #FFF8F3;
+    justify-content: center;
+}
 .color-primary {
     color: #FD6E0A;
 }
@@ -31,6 +35,22 @@
     border-radius: 5px;
     font-size: 20px;
     border: none;
+}
+/* section style */
+.section-title {
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.section-description {
+    font-size: 18px;
+    color: #757575;
+    
+}
+.class-title {
+    text-align: center;
+    justify-content: center;
+    display: flex;
 }
 
 
@@ -83,5 +103,30 @@ nav li a {
 .banner-profile-pic {
     width: 684px;
     height: 676px;
-    background-position: bottom;
+    /* background-position: bottom; */
 }
+
+/* main styles */
+ .main {
+    /* max-width: 740 px;
+    height: 550px;
+    margin: 0 auto; */
+    display: flex;
+    justify-content: space-between;
+    margin: 130px 230px 208px 230px;
+}
+
+/* about styles */
+ .about {
+    border-radius: 10px;
+    padding: 131px 157px 130px 157px;
+    text-align: center;
+    margin-top: 130px;
+ }
+ /* about items */
+ .about-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    margin: 0 22.5px 0 22.5px;
+ }
