@@ -110,14 +110,18 @@ nav li a {
 }
 
 /* main styles */
- .main {
+main {
+    justify-content: space-between;
+    margin: 130px 230px 208px 230px;
+}
+/* .main {
     /* max-width: 740 px;
     height: 550px;
     margin: 0 auto; */
     /* display: flex; */
     justify-content: space-between;
-    margin: 130px 230px 208px 230px;
-}
+    margin: 130px 230px 208px 230px; */
+} */
 
 /* about styles */
  .about {
@@ -165,6 +169,7 @@ nav li a {
  .resume-containers {
     display: flex;
     gap: 24px;
+    justify-content: center;
  }
  .experince-description {
     color: #757575;
@@ -191,3 +196,30 @@ nav li a {
  .section-title {
     margin-bottom: 113px;
  }
+ /* footer styles */
+ footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+ }
+ .footer-column {
+    width: 50%;
+ }
+ footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 641px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
+ }
+ /* .form-text {
+    height: 24px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+
+ } */
